@@ -1,0 +1,20 @@
+name: CubeBusiness
+version: '1.0-SNAPSHOT'
+main: me.scpl.java.games.mcplugins.cubebusiness.CubeBusiness
+api-version: '1.20'
+description: Minecraft Monopoly plugin
+commands:
+  createpiece:
+    description: Create a monopoly piece
+    usage: /createpiece <entity>
+  colourcodes:
+    description: List colour codes
+    usage: /colourcodes
+  cubebusiness:
+    description: Main plugin command
+    usage: /cubebusiness
+aliases:
+  cb:
+    - cubebusiness
+authors:
+  - SCpl
